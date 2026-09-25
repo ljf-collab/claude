@@ -1,0 +1,115 @@
+@page { size: 13.333in 7.5in; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body { font-family: "Lora", Georgia, serif; color: #16181d; background: #fff; font-size: 13.5pt; line-height: 1.45; }
+h1, h2, h3, .sans { font-family: "Poppins", "Liberation Sans", Helvetica, Arial, sans-serif; }
+
+.page { width: 13.333in; height: 7.5in; page-break-after: always; break-after: page; position: relative; overflow: hidden; background: #f7f4ee; }
+.page:last-child { page-break-after: auto; }
+
+/* ---- the bullet: MTA line disc ---- */
+.bullet { display: inline-flex; align-items: center; justify-content: center; width: 2.2em; height: 2.2em; border-radius: 50%; color: #fff; font-family: "Poppins", Helvetica, Arial, sans-serif; font-weight: 700; line-height: 1; flex: 0 0 auto; }
+.bullet-wide { width: auto; min-width: 2.2em; padding: 0 0.6em; border-radius: 1.2em; font-size: 0.7em; }
+.bullet[style*="#FCCC0A"] { color: #16181d; }
+
+/* ---- cover ---- */
+.cover, .divider { display: flex; background: #16181d; color: #fff; }
+.cover-sign { width: 58%; padding: 0.9in 0.9in 0.8in 0.9in; display: flex; flex-direction: column; justify-content: flex-end; border-right: 3px solid #fff; }
+.cover-kicker { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.35em; margin-bottom: 0.2em; }
+.cover h1 { font-size: 7.4em; line-height: 0.92; margin: 0 0 0.25em 0; font-weight: 700; letter-spacing: -0.02em; }
+.cover-dates { font-family: "Poppins", Helvetica, sans-serif; font-size: 1.15em; font-weight: 500; border-top: 3px solid #fff; padding-top: 0.6em; max-width: 26em; }
+.cover-right { width: 42%; padding: 0.9in 0.9in 0.8in 0.8in; display: flex; flex-direction: column; justify-content: flex-end; }
+.cover-lines { display: flex; gap: 0.5em; font-size: 1.5em; margin-bottom: 1.2em; }
+.cover-note { font-size: 1.15em; line-height: 1.5; margin: 0 0 1.2em 0; color: #e9e6df; }
+.cover-credit { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; margin: 0; color: #fff; }
+.divider .cover-sign { border-right: 0; justify-content: center; }
+
+/* ---- generic prose page with signage strip ---- */
+.prose-page { padding: 0; }
+.sign-strip { background: #16181d; color: #fff; height: 0.85in; display: flex; align-items: center; gap: 0.6em; padding: 0 0.6in; font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.5em; }
+.sign-strip .bullet { font-size: 1.05em; }
+.strip-sub { font-family: "Lora", Georgia, serif; font-weight: 400; font-size: 0.6em; color: #cfcbc2; margin-left: auto; max-width: 30em; text-align: right; line-height: 1.3; }
+.prose-page > *:not(.sign-strip) { margin: 0.45in 0.6in; }
+.prose-page h2 { font-size: 1.25em; margin: 0 0 0.35em 0; font-weight: 600; }
+.prose-page h2 + p, .prose-page p { margin: 0 0 0.9em 0; max-width: 34em; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8in; }
+.legend { list-style: none; padding: 0; margin: 0 0 1.1em 0; }
+.legend li { padding: 0.35em 0; border-bottom: 1px solid #d9d4c9; }
+.legend b { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; }
+
+/* ---- calendar ---- */
+.cal { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.16in; margin: 0.35in 0.6in !important; }
+.cal-cell { background: #fff; border: 2px solid #16181d; padding: 0.55em 0.65em 0.6em; min-height: 1.72in; }
+.cal-top { display: flex; align-items: center; gap: 0.5em; margin-bottom: 0.45em; font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; }
+.cal-date { font-size: 0.95em; }
+.cal-theme { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.86em; line-height: 1.28; }
+
+/* ---- day page ---- */
+.day { display: flex; }
+.sign { width: 4.1in; background: #16181d; color: #fff; padding: 0.5in 0.45in 0.45in 0.5in; display: flex; flex-direction: column; }
+.sign-top { display: flex; align-items: center; gap: 0.6em; }
+.sign-day { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.1em; color: #cfcbc2; }
+.sign-date { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.15em; line-height: 1.25; margin-top: 0.9em; }
+.sign-theme { font-size: 1.85em; line-height: 1.12; margin: 0.35em 0 0.3em 0; font-weight: 700; letter-spacing: -0.01em; border-top: 3px solid var(--line); padding-top: 0.35em; }
+.sign-area { color: #cfcbc2; font-size: 0.98em; }
+.sign-food { margin-top: auto; border-top: 1px solid #4a4d55; padding-top: 0.7em; }
+.sign-label { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; color: var(--line); font-size: 0.92em; }
+.sign-food-name { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.05em; line-height: 1.25; margin: 0.15em 0 0.25em; }
+.sign-food-why { font-size: 0.9em; line-height: 1.4; color: #cfcbc2; }
+.body { flex: 1; padding: 0.5in 0.6in 0.45in 0.6in; display: flex; flex-direction: column; }
+.intro { font-size: 1.2em; line-height: 1.45; margin: 0 0 0.7em 0; max-width: 40em; }
+.timeline { flex: 1; columns: 2; column-gap: 0.55in; column-fill: balance; }
+.t-row { display: grid; grid-template-columns: 4.8em 1fr; gap: 0.6em; padding: 0.5em 0; border-top: 1px solid #cfcabf; font-size: 1.02em; line-height: 1.4; break-inside: avoid; }
+.t-time { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 0.92em; padding-top: 0.1em; }
+.swap { margin-top: 0.6em; padding-top: 0.6em; border-top: 3px solid #16181d; font-size: 1.02em; }
+.swap-label { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; margin-right: 0.4em; }
+
+/* ---- appendix grids ---- */
+.grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.45in 0.32in; font-size: 1.12em; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.14in 0.3in; font-size: 0.96em; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.14in 0.45in; font-size: 1.22em; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.06in 0.5in; font-size: 1.1em; }
+.n-item, .r-row { border-top: 3px solid #16181d; padding-top: 0.5em; }
+.n-name, .r-name, .m-name, .f-name, .b-name { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; line-height: 1.25; }
+.n-desc, .r-desc, .m-desc { font-size: 0.84em; line-height: 1.4; margin-top: 0.3em; }
+.n-train { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.8em; margin-top: 0.5em; color: #5b5e66; }
+.m-row { border-top: 1px solid #16181d; padding: 0.45em 0 0.2em; }
+.m-name { font-size: 0.98em; }
+.f-row { display: grid; grid-template-columns: 1.9em 1fr; gap: 0.5em; border-top: 1px solid #d9d4c9; padding: 0.5em 0; }
+.f-num { font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 1.15em; color: #EE352E; line-height: 1; padding-top: 0.05em; }
+.f-name { font-size: 1.02em; }
+.f-where { font-size: 0.86em; color: #5b5e66; margin-top: 0.12em; }
+
+/* ---- picks & bookings ---- */
+.picks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.35in; font-size: 1.1em; }
+.picks h3 { margin: 0 0 0.45em 0; font-size: 1em; font-weight: 600; border-bottom: 3px solid #16181d; padding-bottom: 0.3em; }
+.pick { display: flex; align-items: center; gap: 0.5em; font-size: 0.86em; padding: 0.22em 0; }
+.box { display: inline-block; width: 0.95em; height: 0.95em; border: 2px solid #16181d; border-radius: 2px; flex: 0 0 auto; background: #fff; }
+.write-lines div { border-bottom: 1px solid #16181d; height: 1.5em; }
+.bookings .b-row { display: grid; grid-template-columns: 1.3em 1fr 1fr 1.25fr; gap: 0.5em; align-items: baseline; padding: 0.42em 0; border-bottom: 1px solid #d9d4c9; font-size: 0.9em; }
+.b-when { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.92em; }
+.b-note { color: #5b5e66; font-size: 0.92em; }
+
+.had { display: inline-flex; align-items: center; justify-content: center; width: 1.25em; height: 1.25em; border-radius: 50%; background: #00933C; color: #fff; font-family: "DejaVu Sans", sans-serif; font-size: 0.72em; margin-left: 0.45em; vertical-align: middle; position: relative; top: -0.08em; }
+.f-row.done .f-name, .r-row.done .r-name { color: #16181d; }
+.box.ticked { background: #00933C; border-color: #00933C; color: #fff; font-family: "DejaVu Sans", sans-serif; font-size: 0.7em; display: inline-flex; align-items: center; justify-content: center; width: 1.36em; height: 1.36em; }
+
+.pno { position: absolute; right: 0.45in; bottom: 0.3in; font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 0.85em; color: #7a7d85; }
+
+/* ---- spotlight ---- */
+.spot .sp-head { margin: 0.28in 0.6in 0.2in 0.6in; font-family: "Lora", Georgia, serif; font-style: italic; font-size: 1.45em; line-height: 1.25; max-width: 30em; }
+.sp-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0 0.28in; margin: 0 0.6in; }
+.sp-item { padding-top: 0; }
+.sp-name { font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 1.05em; line-height: 1.2; }
+.sp-sub { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.78em; color: #5b5e66; margin: 0.25em 0 0.55em; line-height: 1.3; }
+.sp-body { font-size: 0.74em; line-height: 1.42; margin: 0 0 0.55em 0; }
+.sp-try { font-size: 0.74em; line-height: 1.4; border-top: 1px solid #cfcabf; padding-top: 0.45em; }
+.sp-try span { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; margin-right: 0.45em; }
+
+.sp-plate { height: 0.48in; display: flex; align-items: flex-end; padding: 0 0.45em 0.25em; margin-bottom: 0.55em; }
+.sp-plate span { font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 1.6em; color: #fff; line-height: 1; }
+.sp-plate[style*="#FCCC0A"] span { color: #16181d; }
+.sp-sub { color: #16181d; }
+
+.sp-photo { height: 1.15in; background-size: cover; background-position: center; margin-bottom: 0.5em; position: relative; }
+.sp-photo span { position: absolute; left: 0.45em; bottom: 0.2em; font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 1.6em; color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,.6); line-height: 1; }
