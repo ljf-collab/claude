@@ -18,20 +18,20 @@ DAYS = [
       plan=[("Morning","No alarm. Coffee and papers."),("12:30pm","Late brunch in Chelsea. Somewhere on 9th or 10th Ave, close to the galleries."),("1:45pm","The Chelsea galleries, W 20th to 26th between 10th and 11th. Zwirner, Pace, Gagosian, Hauser & Wirth, and thirty smaller ones. All free, Saturday is the day. Two hours, no map needed."),("3:45pm","Printed Matter, 11th Ave at 26th. The artists' bookshop. Half an hour, easily."),("4:30pm","Poster House, W 23rd. The only museum of posters in the country; small, sharp, an hour."),("5:45pm","El Quijote, in the Hotel Chelsea, 23rd and 7th. Reservation pending. Garlic shrimp and a glass of something. Five minutes from the Joyce."),("7:30pm","The Joyce. The Surge: An Ode to Sinéad O'Connor, Sonya Tayeh's company of ten women dancing to Sinéad. Sold-out run."),("9:30pm","Cab home.")],
       food=("Garlic shrimp at El Quijote","The old Spanish room in the Hotel Chelsea, back after the renovation. The pre-theater dinner that feels like the city."),
       swap="If galleries aren't the mood, the High Line from 20th to 30th and a long drink instead."),
- dict(n=3, dow="Sunday", date="27 September", theme="Harlem, a wine bar and a book, then City Island", line="2", color=L["red"], area="Harlem, then City Island",
-      intro="The tour is at 11 and Sammy's is at 5:30. In between, the best part of last time: a glass of wine, a book, a Harlem afternoon with nowhere to be.",
-      plan=[("10:30am","2/3 to 135th. The tour meets at 135th and Lenox, in front of the Schomburg."),("11:00am","Historic Harlem walking tour. Around two hours."),("1:15pm","Red Rooster, Lenox at 125th. Marcus Samuelsson's place. Light; dinner is in four hours."),("2:30pm","The wine bar. Barawine on Lenox at 120th, or Vinateria on Frederick Douglass at 119th. Books out. Two hours of nothing."),("4:30pm","Car to City Island, about forty minutes on a Sunday. Walk the avenue to the tip."),("5:30pm","Sammy's Fish Box. Lobster, clams, the noise."),("7:30pm","Car home. Early night.")],
-      food=("Sammy's Fish Box","City Island seafood in a room that has never once been quiet."),
-      swap="If the tour runs long, Red Rooster goes and snacks come to the wine bar. The wine bar is the point."),
+ dict(n=3, dow="Sunday", date="27 September", theme="Harlem, a wine bar and a book", line="2", color=L["red"], area="Harlem",
+      intro="The tour is at 11 and the storm is coming. After it, the best part of last time: a glass of wine, a book, a Harlem afternoon with nowhere to be, and home before the weather turns.",
+      plan=[("10:30am","2/3 to 135th. The tour meets at 135th and Lenox, in front of the Schomburg."),("11:00am","Historic Harlem walking tour. Around two hours."),("1:15pm","Melba's, 114th and Frederick Douglass. Chicken and waffles, the ones that beat Bobby Flay. A fifteen-minute walk south from the tour."),("2:45pm","The wine bar. Barawine on Lenox at 120th, or Vinateria on Frederick Douglass at 119th. Books out. Two hours of nothing."),("5:00pm","Car home before the rain settles in."),("Evening","In. Takeout, the rest of the book, an early night.")],
+      food=("Chicken and waffles at Melba's","The Harlem plate, in the room that made it famous. Sammy's moves to Tuesday, when it's dry and quiet."),
+      swap="If the tour runs long, Melba's goes and snacks come to the wine bar. The wine bar is the point."),
  dict(n=4, dow="Monday", date="28 September", theme="Old New York: the Upper West Side", line="1", color=L["red"], area="Upper West Side",
       intro="Symphony Space is at 95th and Broadway, so the day builds north along the west side and ends there. Zabar's and Gray's are done; this is the rest of the neighborhood.",
       plan=[("10:30am","Levain, W 74th, the original basement. The chocolate chip walnut, warm. One, split."),("11:15am","American Museum of Natural History. The dinosaur halls, the Gilder Center, the planetarium."),("1:30pm","Jacob's Pickles, Amsterdam at 84th. Biscuits, fried chicken, the pickle plate. The neighborhood's loud lunch."),("3:00pm","Riverside Park, from 83rd north along the river. The quieter park, the one locals actually use."),("4:30pm","Book Culture, 112th and Broadway. The Columbia bookstore that isn't Columbia's."),("6:00pm","Early bite or a drink near 95th."),("7:00pm","Symphony Space, till 8:30."),("9:00pm","Home.")],
       food=("The Levain cookie, then biscuits at Jacob's Pickles","One is six ounces of cookie. The other is a biscuit the size of a hand. Neither apologizes."),
       swap="If Natural History runs long, Riverside Park goes. Book Culture stays."),
- dict(n=5, dow="Tuesday", date="29 September", theme="Museum Mile, without the Met", line="6", color=L["green"], area="Upper East Side",
+ dict(n=5, dow="Tuesday", date="29 September", theme="Museum Mile, then City Island", line="6", color=L["green"], area="Upper East Side, then City Island",
       intro="Museum day. The Met is done, so this is the Frick, back in its mansion after the renovation. Plus the two old-school sweets three blocks away.",
-      plan=[("10:30am","The Frick, Fifth Ave at 70th. Vermeer, Rembrandt, Bellini, in the rooms they were bought for, plus the upstairs that was never open before. Two hours."),("1:00pm","Lexington Candy Shop, Lex and 83rd. A 1925 luncheonette. Grilled cheese and the egg cream."),("2:15pm","William Greenberg, Madison and 82nd. The black-and-white cookie."),("2:45pm","Cooper Hewitt at 91st, the design museum in the Carnegie mansion. Ninety minutes. Or the Guggenheim at 89th if the building calls."),("4:30pm","The reservoir loop from 90th. 1.6 miles, skyline on all sides."),("6:00pm","Dinner on the west side or home. Nothing booked.")],
-      food=("An egg cream and a black-and-white","Lexington Candy Shop for the first, William Greenberg for the second. The two most New York sweets there are."),
+      plan=[("10:30am","The Frick, Fifth Ave at 70th. Vermeer, Rembrandt, Bellini, in the rooms they were bought for, plus the upstairs that was never open before. Two hours."),("1:00pm","Lexington Candy Shop, Lex and 83rd. A 1925 luncheonette. Grilled cheese and the egg cream."),("2:15pm","William Greenberg, Madison and 82nd. The black-and-white cookie."),("2:45pm","Cooper Hewitt at 91st, the design museum in the Carnegie mansion. Ninety minutes. Or the Guggenheim at 89th if the building calls."),("4:30pm","The reservoir loop from 90th. 1.6 miles, skyline on all sides."),("5:45pm","Car to City Island from the park, about thirty-five minutes. Walk the avenue to the tip."),("6:30pm","Sammy's Fish Box. Lobster, clams, the noise, on a quiet Tuesday instead of a wet Sunday."),("8:30pm","Car home.")],
+      food=("An egg cream, a black-and-white, then lobster at Sammy's","The two most New York sweets there are, and City Island at the end of the day."),
       swap="Neue Galerie is closed Tuesdays. If the Frick is too, the Guggenheim takes the morning and the Frick moves to Thursday."),
  dict(n=6, dow="Wednesday", date="30 September", theme="TKTS, the Library, a matinee, K-town", line="B", color=L["orange"], area="Times Square and Midtown",
       intro="Matinee day, tickets bought the New York way: in line at TKTS when the booth opens. Then the most beautiful free room in the city until curtain.",
@@ -53,10 +53,10 @@ DAYS = [
       plan=[("8:45am","Grand Central. Metro-North Hudson Line to Beacon."),("9:00am","Left side going north, the river side. Palisades, the Tappan Zee, Bear Mountain Bridge, Storm King."),("10:30am","Beacon. Dia is ten minutes from the platform."),("10:45am","Dia Beacon. Serra, Bourgeois, Flavin, Agnes Martin, natural light."),("1:15pm","Lunch on Main Street. It's a mile long."),("2:30pm","Galleries, vintage, the falls at the east end. Mount Beacon for a real hike; otherwise not."),("4:40pm","Train south. Right side this time. Gold light on the water."),("6:15pm","Grand Central. Dinner in Midtown or home.")],
       food=("Whatever's best on Main Street","Beacon's a food town now. Decided on the walk."),
       swap="Storm King instead of Dia if outdoor sculpture wins. Needs a car or the Port Authority bus. A swap, not an addition."),
- dict(n=10, dow="Sunday", date="4 October", theme="The old immigrant city: Lower East Side and Chinatown", line="F", color=L["orange"], area="Lower East Side and Chinatown",
-      intro="The most New York food day of the trip. Three of the ten live within six blocks of each other. Go hungry.",
-      plan=[("10:15am","Russ & Daughters, E Houston, since 1914. The shop, not the cafe. Bagel, nova, scallion cream cheese. Eat it in the park across the street."),("11:30am","Orchard, Ludlow, the tenement blocks."),("12:30pm","The Tenement Museum again, or the galleries on Orchard instead."),("2:00pm","Katz's. Pastrami on rye, mustard, a half-sour. The ticket at the door stays in a pocket. One sandwich, split; it's a pound."),("3:15pm","Yonah Schimmel's, since 1910. A potato knish for later."),("3:45pm","South into Chinatown. Canal, Mott, Doyers."),("4:15pm","Nom Wah Tea Parlor, Doyers St, since 1920. Har gow, siu mai, the original egg roll."),("6:30pm","Home. No dinner required.")],
-      food=("Russ & Daughters, Katz's, Nom Wah","Numbers one, two and five on the list, in walking order."),
+ dict(n=10, dow="Sunday", date="4 October", theme="The old immigrant city, the parts not yet seen", line="F", color=L["orange"], area="Lower East Side and Chinatown",
+      intro="The neighborhood every New York family came through, this time the parts not yet seen: a synagogue, a market hall, a candy store, and dim sum on the crooked street.",
+      plan=[("10:15am","Russ & Daughters, E Houston, since 1914. The shop, not the cafe. Bagel, nova, scallion cream cheese. Eat it in the park across the street."),("11:30am","Orchard, Ludlow, the tenement blocks, the galleries."),("12:15pm","The Museum at Eldridge Street. The 1887 synagogue, restored, with the Kiki Smith window. An hour."),("1:30pm","Essex Market, Essex and Delancey. Lunch from the stalls: Dhamaka, Shopsin's, the oyster bar. Indoors, which matters."),("3:00pm","Economy Candy, Rivington, since 1937. A bag for the walk."),("3:45pm","South into Chinatown. Canal, Mott, Doyers."),("4:15pm","Nom Wah Tea Parlor, Doyers St, since 1920. Har gow, siu mai, the original egg roll."),("6:30pm","Home. No dinner required.")],
+      food=("Russ & Daughters, then Essex Market","The bagel that started it, then lunch under one roof from a dozen stalls."),
       swap="Also the right day for Sammy's if the landing weekend ran too full."),
  dict(n=11, dow="Monday", date="5 October", theme="Williamsburg by ferry", line="NYC Ferry", color=L["teal"], area="Williamsburg, Brooklyn",
       intro="The East River ferry from W 39th is a five-minute walk from home and the best way in. The skyline from the water is the point.",
@@ -68,14 +68,14 @@ DAYS = [
       plan=[("8:30am","A train to Inwood-207th, the last stop."),("9:00am","Inwood Hill Park. The northern tip, the last natural forest on the island. Touch the water, then head south."),("10:00am","Washington Heights. Fort Tryon and the Cloisters, a twenty-minute detour uphill."),("11:15am","Malecon, Broadway at 175th. Dominican. Mofongo or the rotisserie chicken."),("12:30pm","Hamilton Heights, Sugar Hill, through Harlem."),("2:00pm","Down Broadway or through the park on the west side."),("3:30pm","Columbus Circle. Halfway. Sit."),("5:30pm","The Village, SoHo, Tribeca."),("6:30pm","The Battery. The southern tip. Look at the Statue. Done."),("7:00pm","Frenchette in Tribeca. Then a car home. Not the subway.")],
       food=("Mofongo at Malecon","Washington Heights is Dominican. Malecon is the Dominican restaurant. It's right on the route."),
       swap="If thirteen miles is too much, the walk starts at the Cloisters instead of Inwood and loses the first three."),
- dict(n=13, dow="Wednesday", date="7 October", theme="SoHo and the Village, then the Golden", line="1", color=L["red"], area="SoHo, West Village, Theater District",
-      intro="Operation Mincemeat is at 2 on 45th, so the morning is downtown, starting with the one pastry that has a line at 8am.",
-      plan=[("9:00am","Dominique Ansel, Spring St. The Cronut."),("9:45am","SoHo before the crowds. Cast iron on Greene and Mercer."),("10:30am","The West Village. Grove Court, Commerce St, the Cherry Lane block. The prettiest twenty minutes in Manhattan."),("11:30am","Washington Square Park."),("12:00pm","Joe's Pizza, Carmine St, since 1975. Plain slice, folded, at the counter."),("12:20pm","Mamoun's, MacDougal, since 1971. Falafel, hot sauce, eaten walking."),("1:30pm","John Golden Theatre, 252 W 45th."),("2:00pm","Operation Mincemeat. Two hours thirty-five."),("4:45pm","Out. Walk home. Evening open.")],
-      food=("The slice at Joe's, the Cronut at Dominique Ansel","One is fifty years old and costs four dollars. The other is twelve years old and needs a pre-order. Both are the city."),
-      swap="If the Cronut line is absurd, skip it. Joe's is the one that matters. Tickets for this one are bought ahead, not at TKTS; the morning's downtown."),
- dict(n=14, dow="Thursday", date="8 October", theme="The 9/11 Museum, then Brooklyn: the bridge, DUMBO, the Heights", line="F", color=L["orange"], area="Lower Manhattan, DUMBO, Brooklyn Heights, Downtown Brooklyn",
-      intro="The museum first, at opening, while it's quiet. Then straight onto the bridge; the walk is the right thing after. The other Brooklyn on the far side: the coal oven and the cheesecake.",
-      plan=[("9:00am","9/11 Memorial and Museum, the first slot of the day. The memorial pools outside, then the museum. Give it two hours; it needs them."),("11:15am","Walk five minutes to City Hall and onto the Brooklyn Bridge. Thirty minutes across, slowly."),("12:00pm","DUMBO. The Manhattan Bridge framed by Washington St, Empire Stores, the waterfront."),("12:30pm","Juliana's, Old Fulton St. Coal-oven pizza, Patsy Grimaldi's own place. There'll be a line; it moves."),("2:00pm","Up into Brooklyn Heights. The Promenade, then Willow, Pierrepont, Montague."),("3:30pm","Junior's, Flatbush and DeKalb, since 1950. The plain cheesecake, in the diner."),("5:00pm","Back over the bridge, or the F home."),("Evening","Beyonce, Homecoming, at home. Screen it, build the food around it. Long overdue.")],
+ dict(n=13, dow="Wednesday", date="7 October", theme="TKTS, SoHo and the Village, then a matinee", line="1", color=L["red"], area="Times Square, SoHo, West Village",
+      intro="TKTS at ten, then downtown until curtain: a pastry with a line, the prettiest streets in Manhattan, a pepperoni square, and a matinee at two.",
+      plan=[("9:45am","TKTS, 47th and Broadway, in line before the ten o'clock matinee sales. Operation Mincemeat if it's on the board."),("10:30am","1 train to Canal. Dominique Ansel, Spring St. The Cronut."),("11:00am","SoHo. Cast iron on Greene and Mercer. Prince Street Pizza, the pepperoni square, eaten on the corner."),("11:45am","The West Village. Grove Court, Commerce St, the Cherry Lane block. The prettiest twenty minutes in Manhattan."),("12:30pm","Mamoun's, MacDougal, since 1971. Falafel, hot sauce, eaten walking."),("12:50pm","1 train from Christopher St to Times Square."),("1:30pm","The theater, whichever one the board gave."),("2:00pm","The matinee. Two and a half hours."),("4:45pm","Out. Walk home. Evening open.")],
+      food=("The Cronut, then a Prince Street pepperoni square","One needs a pre-order. The other has cups of pepperoni that curl and char. Both are SoHo."),
+      swap="If Mincemeat isn't on the board and it's the one that matters, it's bought ahead and TKTS is skipped; the morning starts downtown at nine."),
+ dict(n=14, dow="Thursday", date="8 October", theme="The 9/11 Museum, then the other bridge to Brooklyn", line="F", color=L["orange"], area="Lower Manhattan, DUMBO, Brooklyn Heights, Downtown Brooklyn",
+      intro="The museum first, at opening, while it's quiet. Then the Manhattan Bridge, the one nobody walks, with the Brooklyn Bridge as the view. The coal oven and the cheesecake on the far side.",
+      plan=[("9:00am","9/11 Memorial and Museum, the first slot of the day. The memorial pools outside, then the museum. Give it two hours; it needs them."),("11:15am","Walk up to Canal and Bowery and onto the Manhattan Bridge. The walkway nobody takes, with the Brooklyn Bridge in the frame the whole way. Thirty minutes across."),("12:00pm","DUMBO, from underneath the bridge just walked. Washington St, Empire Stores, the waterfront."),("12:30pm","Juliana's, Old Fulton St. Coal-oven pizza, Patsy Grimaldi's own place. There'll be a line; it moves."),("2:00pm","Up into Brooklyn Heights. The Promenade, then Willow, Pierrepont, Montague."),("3:30pm","Junior's, Flatbush and DeKalb, since 1950. The plain cheesecake, in the diner."),("5:00pm","The F home from York St, or the ferry from Pier 1."),("Evening","Beyonce, Homecoming, at home. Screen it, build the food around it. Long overdue.")],
       food=("Coal-oven pizza at Juliana's, cheesecake at Junior's","The Brooklyn half of the pizza argument, and the only cheesecake that counts."),
       swap="Homecoming becomes a Frenchette dinner if Tuesday's attempt didn't land."),
  dict(n=15, dow="Friday", date="9 October", theme="Cooking day: the Greenmarket, then home", line="N", color=L["yellow"], area="Union Square, then home",
@@ -118,13 +118,12 @@ SPOTLIGHTS = {
 }
 
 SPOTLIGHTS.update({
- 3: dict(headline="Harlem in the morning, a book and a glass of wine in the afternoon, and lobster on an island the Bronx forgot to tell anyone about.",
+ 3: dict(headline="Harlem in the morning, chicken and waffles at Melba's, and a glass of wine with a book while the storm comes in.",
   items=[
-   ("The Historic Harlem tour","Dutch village to the Renaissance, on foot","Two hours from the Schomburg down through Strivers' Row, the Abyssinian Baptist Church and the Apollo, with a guide who knows which stoop Langston Hughes sat on. Harlem was a Dutch farm village, then a white suburb, then, after 1905, the capital of Black America. The blocks still tell it.","Strivers' Row on 138th and 139th, the finest row houses in the city. The Apollo marquee. The plaque outside the Hotel Theresa."),
-   ("Red Rooster","Marcus Samuelsson's Harlem, since 2010","Named for a speakeasy that stood a few blocks away, the Rooster brought a two-Michelin-star chef to Lenox Avenue and made the room feel like a block party anyway. Cornbread arrives in a skillet. Obama ate here in his first year.","The fried yardbird if it's a real lunch. The cornbread and a cocktail if it isn't. The Ginny's Supper Club stairs, just to look."),
-   ("The wine bar","Barawine or Vinateria, books out","Barawine on Lenox at 120th is French-run, long, and doesn't mind an afternoon that turns into evening. Vinateria on Frederick Douglass is smaller, Italian-leaning, with the better wine list. Both are the kind of room where a book is welcome and the second glass is assumed.","A bottle, not glasses. A plate of something. Two hours minimum."),
-   ("City Island","A New England fishing village at the end of the 6 train","A mile and a half long, one avenue wide, with clam shacks, boatyards and Victorian houses, and it has been that way since the 1800s. The rest of the Bronx is a short bridge away and feels like another country. Walk the avenue to Belden Point and look at the water.","The walk to the tip. The nautical museum if it's open. The sunset over the Sound on the way back."),
-   ("Sammy's Fish Box","Since 1966, and never once quiet","The lobster place at the end of City Island Avenue, with the neon, the fish tanks and the plates the size of tires. It is loud, it is family, and it is the reason to make the trip. A Sunday here is what a Sunday in the Bronx looks like.","The whole lobster. Fried clams for the table. Whatever's on the sign out front."),
+   ("The Historic Harlem tour","Dutch village to the Renaissance, on foot","Two hours from the Schomburg through Strivers' Row, Abyssinian Baptist and the Apollo, with a guide who knows which stoop Langston Hughes sat on. A Dutch farm village, then a suburb, then, after 1905, the capital of Black America. The blocks still tell it.","Strivers' Row on 138th and 139th. The Apollo marquee. The Hotel Theresa plaque."),
+   ("Melba's","Chicken and waffles at 114th, since 2005","Melba Wilson grew up in Harlem, cooked at Sylvia's (her aunt's place), and opened twenty tables of her own on Frederick Douglass Boulevard. Her chicken and waffles beat Bobby Flay on television and the neighborhood never let her forget it. It is the local's soul food room, not the tourist's.","The chicken and eggnog waffles. The catfish strips. Sweet tea."),
+   ("The wine bar","Barawine or Vinateria, books out","Barawine on Lenox at 120th is French-run, long, and doesn't mind an afternoon that turns into evening. Vinateria on Frederick Douglass is smaller, Italian-leaning, with the better wine list. Both are the kind of room where a book is welcome and the second glass is assumed.","A bottle, not glasses. A plate of something. Two hours minimum, more if it's pouring."),
+   ("The Schomburg Center","Where the tour starts, and the archive of Black America","A branch of the Public Library since 1925, built around the collection of Arturo Schomburg, a Puerto Rican scholar who set out to prove Black history was worth keeping. Ten million items. Langston Hughes's ashes are under the floor of the lobby, beneath a cosmogram. The exhibitions are free.","The lobby cosmogram. Whatever exhibition is on. Ten minutes before the tour, or an hour after."),
   ]),
  4: dict(headline="The Upper West Side is the New York of the movies: brownstones, the museum, the park from the west, and a cookie the size of a fist.",
   items=[
@@ -141,6 +140,7 @@ SPOTLIGHTS.update({
    ("William Greenberg","The black-and-white cookie, since 1946","A Madison Avenue bakery that has made the same cookie for eighty years: a soft cake base, half vanilla fondant, half chocolate. Seinfeld made it famous; Greenberg's made it right. The line on Saturday mornings is Upper East Side grandmothers.","The black-and-white, obviously. A brownie for later. The rugelach."),
    ("Cooper Hewitt","The Smithsonian's design museum, in Carnegie's house","Andrew Carnegie's 1902 mansion on 91st Street, now the only museum in the country devoted entirely to design. Typefaces, chairs, wallpaper, the history of everything made. The interactive pen lets visitors save what they liked and look it up later.","The Carnegie library. The garden. The pen; it works."),
    ("The Reservoir","1.6 miles, flat, the skyline on every side","Built in 1862 to supply the city's water, retired in 1993, and now the best running loop in Manhattan. The soft-surface track circles a billion gallons of still water with the Upper West Side towers reflected in it. At golden hour it is the most beautiful place in the park.","The full loop from the 90th Street gate. The bridle path below it if the track's crowded. Sunset from the west side."),
+   ("Sammy's Fish Box","City Island, since 1966, moved to a dry Tuesday","The lobster place at the end of City Island Avenue, with the neon, the fish tanks and plates the size of tires. City Island is a mile and a half of clam shacks and boatyards at the end of the Bronx, more New England than New York, and a Tuesday night there is a different room than a Sunday.","The whole lobster. Fried clams for the table. The walk to Belden Point before, while there's light."),
   ]),
  6: dict(headline="Midtown the way New Yorkers do it: a ticket in line, a book under the Library ceiling, lunch from a cart, and a show at two.",
   items=[
@@ -174,12 +174,12 @@ SPOTLIGHTS.update({
    ("Mount Beacon","The optional summit","The hill above town, with the ruins of the 1902 incline railway on the way up and a fire tower at the top. Steep, two hours round trip, and the view is the whole Hudson Highlands. Not a lazy afternoon; a real hike. Only if the mood says so.","The incline railway ruins. The fire tower. Or the bench at the bottom with a coffee."),
    ("Storm King","The swap, if sculpture wins","Five hundred acres of rolling meadow across the river with monumental sculpture set into it: Calder, Serra, Maya Lin's Wavefield, Andy Goldsworthy's stone wall snaking through the trees. Open since 1960. Needs a car or the bus from Port Authority. A day of its own, not an add-on.","Goldsworthy's wall. Maya Lin's field. The Calders on the hill."),
   ]),
- 10: dict(headline="The neighborhood every New York family came through. Bagels, pastrami, a knish and dim sum, in walking order, and all of it over a hundred years old.",
+ 10: dict(headline="The neighborhood every New York family came through, this time the doors not yet opened: a synagogue, a market hall, a candy store.",
   items=[
    ("Russ & Daughters","Appetizing since 1914","Joel Russ sold herring from a pushcart, opened a shop on Houston Street in 1914 and, in 1935, made his three daughters partners, the first American business to put 'and Daughters' on the sign. Four generations on, it is the definitive smoked fish counter in the city. Take a number.","Bagel, Gaspe nova, scallion cream cheese. A piece of sable. The chocolate babka for later."),
-   ("The Tenement Museum","Real apartments, real families","97 Orchard Street housed 7,000 immigrants between 1863 and 1935; the museum found the building sealed in 1988 and restored the apartments as they were left. Guided tours only, one family per tour, and the story of the neighborhood told through their rooms. One of the best museums in New York.","Whichever tour has a slot. Orchard Street after, the same blocks."),
-   ("Katz's Delicatessen","Since 1888, and the pastrami is why","The last of the great Lower East Side delis, in the same spot since 1888. Take the ticket at the door, order at the counter, watch the cutter hand over a slice while he carves. The pastrami is smoked for weeks and sliced by hand. The room is where Harry met Sally.","Pastrami on rye, mustard. A half-sour from the plate. Dr. Brown's cel-ray if the nerve is there."),
-   ("Yonah Schimmel's","The knish, since 1910","A Romanian rabbi's pushcart became a Houston Street storefront in 1910, and it has made potato knishes in the same basement oven ever since. The room has not changed. The knish is a pound of mashed potato in a thin crust and it is the neighborhood in one bite.","Potato knish, plain. Kasha if adventurous. Eat it later; it travels."),
+   ("The Museum at Eldridge Street","An 1887 synagogue, rescued","The first great synagogue built by Eastern European Jews in America, on Eldridge Street below Canal, with a sanctuary that seats a thousand under a painted vault. Abandoned by the 1950s, pigeons in the rafters, and restored over twenty years. Kiki Smith's stained-glass window went in at the end, blue and gold. One of the most beautiful rooms downtown.","The sanctuary from the balcony. The Kiki Smith window. The tour if one is starting."),
+   ("Essex Market","The Lower East Side's market hall, since 1940","La Guardia built it to get the pushcarts off the street; in 2019 it moved into a new hall on Essex and Delancey with the old vendors and a dozen new ones. Dhamaka's Indian, Shopsin's diner chaos, an oyster bar, Nixtamal's tortillas, a Puerto Rican lunch counter. Lunch from three stalls at one table, indoors.","Dhamaka's chili paneer or the goat. A dozen oysters. Whatever the line is longest for."),
+   ("Economy Candy","Since 1937, floor to ceiling","A Rivington Street shop that has sold candy by the pound since the Depression, from the same family. Every bar that was ever discontinued, halvah, Turkish delight, the Pez wall. It is the neighborhood's sweetest survivor and it smells the way a childhood does.","A bag by the pound. The halvah. Something discontinued since 1985."),
    ("Nom Wah Tea Parlor","Dim sum on Doyers, since 1920","The oldest dim sum house in the city, on the crooked block of Doyers Street once called the Bloody Angle. Red vinyl booths, tiled floor, the original egg roll that isn't like any other. Bought by the owner's nephew in 2010 and kept exactly as it was.","Har gow, siu mai, the original egg roll. Turnip cake. The house tea."),
   ]),
  11: dict(headline="Take the ferry. Brooklyn's waterfront was sugar and shipping; now it's coffee, oysters and the skyline you came for.",
@@ -203,15 +203,15 @@ SPOTLIGHTS.update({
    ("Dominique Ansel","The Cronut, since 2013","A French pastry chef in a small SoHo bakery laminated croissant dough, fried it like a doughnut, filled it with cream and named it. Within a week there were lines at 6am and a black market. Thirteen years later the flavor changes monthly and the line is shorter, but the pre-order is still smart.","The Cronut, this month's flavor. The DKA, the pastry insiders order. A frozen s'more if it's warm."),
    ("SoHo's cast iron","The biggest cast-iron district in the world","Twenty-six blocks of 1870s factories with cast-iron facades, bolted together from catalogue parts and painted to look like stone. Abandoned by industry, taken by artists in the 1960s, and now the most photographed streetscape downtown. Before ten, it's empty.","Greene Street from Canal to Houston. The Haughwout Building on Broome. Mercer Street's cobbles."),
    ("The West Village","Where the grid breaks","Below 14th, the streets stop being numbers and start being names, and they bend. Grove Court's hidden row of 1850s houses, Commerce Street's curve, the Cherry Lane Theatre, Bank Street's brownstones. It is the neighborhood every film set in New York tries to fake.","Grove Court through the gate. Commerce Street's bend. Cherry Lane, the oldest off-Broadway theater."),
-   ("Joe's Pizza","The plain slice, since 1975","Joe Pozzuoli, from Naples, opened on the corner of Bleecker and Carmine and never changed the recipe. Thin, foldable, a little charred, four dollars and eaten standing. It is the slice every other slice in the city is measured against. Spider-Man worked here in the movies.","The plain cheese slice, folded. A second one. Nothing on it."),
+   ("Prince Street Pizza","The pepperoni square, SoHo","A tiny counter on Prince Street that made one thing famous: a thick Sicilian square with cups of spicy pepperoni that curl and char at the edges and pool with oil. Since 2012, and the line on the sidewalk is now part of the corner. It is the slice that replaced the plain slice as the one people fly in for.","The spicy spring square, one each. Eat it on the corner. Nothing else."),
    ("Mamoun's","Falafel on MacDougal, since 1971","The oldest falafel shop in the city and the first in Greenwich Village, a counter on MacDougal Street that has fed NYU students, cabbies and Bob Dylan for fifty years. Three dollars, a pita, the hot sauce that made it famous. Eaten on the sidewalk, always.","The falafel sandwich. The hot sauce, carefully. A baklava for the walk to the train."),
    ("Operation Mincemeat","A true wartime caper, sung","In 1943 British intelligence floated a corpse with fake invasion plans off the coast of Spain and fooled Hitler. Four comedians turned it into a musical in a room above a pub in London; it won the Olivier for Best Musical and moved to Broadway in 2025. Five actors play forty parts. It is funnier than it has any right to be.","Seats close; it's a small cast in a small house. The eleven o'clock number. Stay for the bows."),
   ]),
  14: dict(headline="The hardest morning of the trip, then the walk that makes it right: the bridge, the waterfront, coal-oven pizza and the cheesecake.",
   items=[
    ("The 9/11 Memorial and Museum","The pools, then the museum below","Michael Arad's two reflecting pools sit in the footprints of the towers, with the names cut into bronze around the edges and water falling into the void. The museum below, opened in 2014, holds the slurry wall, the last column, the Survivors' Stairs and the stories. It takes two hours and it earns them.","The pools first, outside. The Memorial Hall. The Survivors' Stairs. Then the bridge."),
-   ("The Brooklyn Bridge","1883, and still the walk","Fourteen years to build, twenty-seven workers dead, designed by John Roebling and finished by his son and his daughter-in-law Emily after both men were injured. The first steel-wire suspension bridge in the world. The walkway above the traffic, with the Gothic towers and the harbor on both sides, is the best free half-hour in the city.","Walk it from the Manhattan side. Stop at the first tower and look back. Morning light."),
-   ("DUMBO","Down Under the Manhattan Bridge Overpass","Warehouses, cobbles and the shot of the Manhattan Bridge framed between the buildings on Washington Street that everyone takes and should. Brooklyn Bridge Park runs along the waterfront below with Jane's Carousel in its glass box and the skyline across the river.","Washington Street at Water Street, the photo. Empire Stores. The waterfront to Pier 1."),
+   ("The Manhattan Bridge","1909, and the walk nobody takes","The blue one, the ugly one, the one the subway rattles across. Its south walkway runs from Canal and Bowery to DUMBO with the Brooklyn Bridge in frame the entire way, which is the view the Brooklyn Bridge itself can't give. Almost no tourists, the trains going past, and the arch and colonnade at the Manhattan end, modeled on Paris.","The south walkway, from the Bowery end. Stop mid-span for the Brooklyn Bridge shot. Land in DUMBO under the arches."),
+   ("DUMBO","Down Under the Manhattan Bridge Overpass","Warehouses, cobbles and the shot of the bridge just walked, framed between the buildings on Washington Street, that everyone takes and should. Brooklyn Bridge Park runs along the waterfront below with Jane's Carousel in its glass box and the skyline across the river.","Washington Street at Water Street, the photo. Empire Stores. The waterfront to Pier 1."),
    ("Juliana's","Patsy Grimaldi's own place","Patsy Grimaldi learned from Patsy Lancieri, sold his name in 1998, retired, hated what happened to it, and opened Juliana's next door in 2012 with the coal oven and his mother's name. Thin, blistered, coal-fired, the crust that Brooklyn pizza is supposed to mean.","The classic Margherita. The No. 1, with the sausage. The line moves; join it."),
    ("The Promenade","Brooklyn Heights, and the view","The first historic district in New York, brownstones and Federal houses from the 1820s on, with the Promenade cantilevered over the expressway since 1950. From it: the harbor, the bridge, Lower Manhattan, the Statue. Willow, Pierrepont and Montague Streets behind it are the city's best walk of front doors.","The Promenade end to end. Willow Street. Montague for a coffee."),
    ("Junior's","The cheesecake, since 1950","Harry Rosen's diner at Flatbush and DeKalb opened in 1950 and its cheesecake, dense, plain, on a sponge base, became the one the city means when it says the word. The room is orange booths, a long counter and a display case of the cakes. Sit down; don't take it to go.","Plain cheesecake, a slice. The strawberry if the plain seems too pure. A coffee, in the booth."),
@@ -229,6 +229,8 @@ SPOTLIGHTS.update({
    ("The Marriott Marquis","Times Square, 45th floor of it","The 1985 hotel in the middle of Times Square, with the atrium, the glass elevators and the ballroom that hosts half the awards nights in the city. Ten minutes on foot from the apartment, which is the whole point of living where the apartment is.","The atrium elevators, once. The view from the ballroom floor. Times Square after midnight, quieter than expected."),
   ]),
 })
+
+WX = {1: ('70° and dry', 'Nothing outdoors tonight.'), 2: ('60°, nor\'easter', 'Skip the High Line. The galleries, Printed Matter, Poster House, El Quijote and the Joyce are all indoors; cab between them. Umbrellas by the door.'), 3: ('63°, nor\'easter', "The tour runs rain or shine; umbrella. The wine bar is the rain plan and it was already the plan. Home by five, before the worst of it."), 4: ('62°, nor\'easter tailing off', 'Natural History is the day anyway. Riverside Park becomes the New-York Historical, next door on 77th. Book Culture stays.'), 5: ('70° and dry, the first clear day', "If it turns: the reservoir loop goes, the Guggenheim takes the late afternoon, and Sammy's is a car door to door."), 6: ('74° and dry', 'If it turns: the TKTS line is under umbrellas, everything after it is indoors anyway.'), 7: ('79° and dry', 'If it turns: St. Marks and Tompkins go; the Strand gets the afternoon. The Vanguard is a basement.'), 8: ('80° and dry, warm under the el', "If it turns: Flushing's New World Mall food court is indoors; Corona Park goes. Water either way; it's hot for October."), 9: ('Normal for early October: mid 60s, mostly dry', "Dia is indoors and Main Street is short walks between doors; Mount Beacon is out. If it's a washout, swap this day with Sunday and do the Lower East Side first."), 10: ('Normal for early October: mid 60s', "the Russ & Daughters cafe on Orchard instead of the park bench; Eldridge Street, Essex Market and Nom Wah are all indoors. Umbrella between them."), 11: ('Normal for early October: mid 60s', 'the ferry runs and has a cabin. Domino Park goes; Bar Blondeau and Maison Premiere are indoors. The bridge walk home becomes the ferry.'), 12: ('Normal for early October: mid 60s', "this day moves. Thirteen miles in rain is no one's memory. Swap it with Thursday's Brooklyn day; the bridge is fine in drizzle, the length of Manhattan isn't."), 13: ('Normal for early October: mid 60s', "TKTS under umbrellas, then Film Forum on Houston replaces the SoHo and Village walk; Prince Street, Mamoun's and the theater are all under roofs."), 14: ('Normal for early October: mid 60s', "the museum is indoors. The Manhattan Bridge in drizzle is fine with umbrellas; in real rain, the F to York St and straight to Juliana's. The Promenade goes; Junior's stays."), 15: ('Normal for early October: mid 60s', 'The Greenmarket runs rain or shine, under tents. This is the best rain day of the trip; nothing to change.'), 16: ('Normal for early October: mid 60s', "car door to door, a big umbrella for the carpet, Drybar by cab even though it's a block."), 17: ('Normal for early October: mid 60s', 'Nothing outdoors. If it storms, leave for JFK at 5.')}
 
 NEIGHBORHOODS = [
  ("West Village","The prettiest streets in the city: Grove Court, Commerce, Bank. Coffee, a bookstore, a slice at Joe's, and get lost on purpose.","1 to Christopher St"),
@@ -309,12 +311,14 @@ RITUALS = [
 
 BOOKINGS = [
  ("Harlem walking tour","Sun 27 Sep, 11am","Booked. Confirm the end time."),
+ ("Sammy's Fish Box","Tue 29 Sep, 6:30pm","Call and move the Sunday reservation."),
+ ("Melba's","Sun 27 Sep, 1:15pm","Reserve if they take them; walk-in otherwise."),
  ("Dia Beacon","Sat 3 Oct","Timed tickets online. Saturdays sell out."),
  ("Metro-North to Beacon","Sat 3 Oct","Buy in the TrainTime app the night before."),
  ("Village Vanguard","Thu 1 Oct, 8pm","Reserve online. Sells out."),
  ("9/11 Memorial and Museum","Thu 8 Oct, 9am","Book the first slot."),
- ("Operation Mincemeat","Wed 7 Oct, 2pm","Buy ahead. John Golden Theatre."),
- ("TKTS","Wed 30 Sep, 10am","Nothing to book. Be in line by 9:45."),
+ ("Operation Mincemeat","Wed 7 Oct, 2pm","Buy ahead if it's the one; otherwise TKTS at 10."),
+ ("TKTS","Wed 30 Sep and Wed 7 Oct, 10am","Nothing to book. In line by 9:45."),
  ("Maison Premiere","Mon 5 Oct, 5pm","Reserve. Confirm the oyster hour."),
  ("Jongro BBQ","Wed 30 Sep, 7:30pm","Reserve."),
  ("El Quijote","Sat 26 Sep, 5:45pm","Call. Nothing indoor showing online; they often have it by phone. Opens 5pm."),
@@ -322,7 +326,7 @@ BOOKINGS = [
  ("The Morgan Library","Thu 1 Oct, 10:30am","Timed ticket."),
  ("Cooper Hewitt","Tue 29 Sep, 2:45pm","Timed ticket."),
  ("Poster House","Sat 26 Sep, 4:30pm","Ticket at the door is fine."),
- ("Tenement Museum","Sun 4 Oct, 12:30pm","Only if going again. Guided tours only."),
+ ("Museum at Eldridge Street","Sun 4 Oct, 12:15pm","Ticket at the door; check Sunday hours."),
  ("Frenchette","Tue 6 Oct, 7pm","Try. It's hard."),
  ("Dominique Ansel","Wed 7 Oct","Pre-order the Cronut online."),
  ("Drybar","Sat 10 Oct, 10am","Confirm booked."),
@@ -335,6 +339,15 @@ DONE_FOODS = {"Pastrami on rye","The plain slice","Soup dumplings","Hot dog and 
 DONE_MUSEUMS = {"The Met","MoMA","The Whitney","The Tenement Museum"}
 DONE_RITUALS = {"Walk a bridge","Eat standing up","Take the ferry instead of the subway","Get lost in the West Village on purpose"}
 CHECK = '<span class="had">&#10003;</span>'
+
+def img_b64(path, maxw):
+    import base64, io
+    from PIL import Image
+    im = Image.open(path).convert("RGB")
+    if im.width > maxw:
+        im = im.resize((maxw, int(im.height*maxw/im.width)), Image.LANCZOS)
+    buf = io.BytesIO(); im.save(buf, "JPEG", quality=82, optimize=True)
+    return base64.b64encode(buf.getvalue()).decode()
 
 def e(s): return html.escape(s)
 
@@ -358,7 +371,7 @@ pages.append(f'''
       {"".join(bullet(l,c,1.0) for l,c in [("1",L["red"]),("A",L["blue"]),("6",L["green"]),("B",L["orange"]),("7",L["purple"]),("N",L["yellow"]),("L",L["grey"])])}
     </div>
     <p class="cover-note">Seventeen days. One neighborhood a day. Twenty-five foods, twenty museums, ten neighborhoods to choose from. A plan to be marked up together.</p>
-    <p class="cover-credit">Lloyd, for Sarah</p>
+    <p class="cover-credit">Love, Lloyd</p>
   </div>
 </section>''')
 
@@ -369,21 +382,21 @@ pages.append(f'''
   <div class="two-col">
     <div>
       <h2>The idea</h2>
-      <p>Every day is one part of the city, done properly, with the train that gets there on the page. The fixed points are real: the flights, the Joyce, Symphony Space, Sammy's, the two Wednesday matinees, the Emmys. Everything else is designed around them and can move.</p>
+      <p>Every day is one part of the city, done properly, with the train that gets us there on the page. The fixed points are real: the flights, the Joyce, Symphony Space, Sammy's, the two Wednesday matinees, the Emmys. Everything else is designed around them and can move.</p>
       <p>The foods New York is actually known for are placed on the day the plan is already in their neighborhood, so nothing is a detour.</p>
       <h2>The menus at the back</h2>
-      <p>The appendices are the menu. Ten neighborhoods worth an afternoon, twenty-five foods to have as a New Yorker, twenty museums, ten things that make a local. Anything circled that isn't already on a day gets a day.</p>
+      <p>The appendices are the menu: ten neighborhoods worth an afternoon, twenty-five foods to have as a New Yorker, twenty museums, ten things that make a local. Circle anything. If it isn't already on a day, we find it one.</p>
     </div>
     <div>
       <h2>What each day page shows</h2>
       <ul class="legend">
-        <li><b>The bullet</b> is the train, ferry or car that gets there.</li>
+        <li><b>The bullet</b> is the train, ferry or car that gets us there.</li>
         <li><b>The plan</b> is hour by hour. Times are starts, not deadlines.</li>
         <li><b>The food</b> is what that day is for, if only one thing happens.</li>
         <li><b>The swap</b> is what changes if the day runs long, or short, or the mood does.</li>
       </ul>
       <h2>Two honest notes</h2>
-      <p>Sunday the 27th is a full second day; the wine bar is the part that gives. Tuesday the 6th is thirteen miles; the Cloisters is the shorter start.</p>
+      <p>The first three days are a nor'easter, and the plan is built for it. Tuesday the 6th is thirteen miles; the Cloisters is the shorter start.</p>
     </div>
   </div>
 </section>''')
@@ -394,23 +407,24 @@ OPENER_TILES = [
  ("Harlem","Sunday, a tour and a wine bar"),
  ("The Frick","Tuesday, Vermeer in the mansion"),
  ("The Hudson","Saturday, foliage by train to Beacon"),
- ("Katz's","Sunday, pastrami on the Lower East Side"),
+ ("Russ & Daughters","Sunday, the bagel that started it"),
  ("The Vanguard","Thursday, the eight o'clock set"),
  ("Flushing","Friday, soup dumplings at the end of the 7"),
- ("The Brooklyn Bridge","Thursday, after the museum"),
+ ("The Cloisters","Tuesday, halfway down the island"),
  ("The Greenmarket","Friday, then cooking at home"),
  ("The Emmys","Saturday, the last full day"),
 ]
 STATS = [("17","days"),("12","neighborhoods"),("25","foods"),("20","museums"),("2","matinees"),("1","sold-out dance premiere"),("1","jazz set at the Vanguard"),("13","miles, tip to tip"),("1","Emmy night")]
 
+OPENER_SRC = {3: "images/day10/1.jpg", 6: "images/day12/2.jpg"}
 def tile(i, name, cap):
     import os, base64, mimetypes
     src = None
-    for ext in ("jpg","jpeg","png","webp"):
-        p = f"images/opener/{i+1}.{ext}"
+    cands = ([OPENER_SRC[i]] if i in OPENER_SRC else []) + [f"images/opener/{i+1}.{ext}" for ext in ("jpg","jpeg","png","webp")]
+    for p in cands:
+        if False: pass
         if os.path.exists(p):
-            mime = mimetypes.guess_type(p)[0] or "image/jpeg"
-            src = f"data:{mime};base64,{base64.b64encode(open(p,'rb').read()).decode()}"
+            src = f"data:image/jpeg;base64,{img_b64(p, 1100)}"
             break
     plates = [L["red"],L["blue"],L["green"],L["orange"],L["purple"],L["yellow"],L["teal"],L["grey"],L["brown"]]
     bg = f"background-image:url({src})" if src else f"background:{plates[i%len(plates)]}"
@@ -438,6 +452,30 @@ pages.append(f'''
   <div class="cal">{cells}</div>
 </section>''')
 
+
+# ---------- Weather and backups ----------
+wxrows = "".join(f'<div class="wx-row"><div class="wx-d">{e(d["dow"][:3])} {e(d["date"].split()[0])} {e(d["date"].split()[1][:3])}</div><div class="wx-f">{e(WX[d["n"]][0])}</div><div class="wx-t">{e(d["theme"])}</div></div>' for d in DAYS)
+pages.append(f'''
+<section class="page prose-page">
+  <div class="sign-strip">{bullet("☂",L["teal"])}<span>Weather and the backup plans</span><span class="strip-sub">Forecast as of 25 September for the first eight days; climate normals after that. Each day page has its own rain line.</span></div>
+  <div class="wx-wrap">
+    <div class="wx-table">{wxrows}</div>
+    <div class="wx-notes">
+      <h2>The wet weekend</h2>
+      <p>A nor'easter runs Saturday through Monday. All three days were built mostly indoors: galleries, a bookshop, a poster museum and a theater on Saturday; the tour, Melba's and a wine bar on Sunday, home by five; Natural History on Monday. The High Line is the only thing lost, and Sammy's moved to Tuesday, the first dry day.</p>
+      <h2>The dry week</h2>
+      <p>Tuesday through Friday look clear and warm, near 80 by Thursday. That's the window for the reservoir, Harlem on foot and Queens under the el. Water on the Queens day.</p>
+      <h2>The one day that can't take rain</h2>
+      <p>Tip to Tip, Tuesday the 6th. If the forecast turns, it swaps with Thursday's Brooklyn day. Everything else has an indoor version on its own page.</p>
+      <h2>Other things that go wrong</h2>
+      <p><b>The subway.</b> Weekend service changes are constant; the MTA app the night before. The ferry and a cab cover most of it.</p>
+      <p><b>Sold out.</b> TKTS has a board, not a show. The Vanguard has a 10pm set. Dia has Storm King. Nothing on this trip has only one version.</p>
+      <p><b>Tired.</b> Any day can become a home day. The only things prepaid are the Joyce, Symphony Space, Mincemeat and Dia; everything else cancels by not showing up.</p>
+      <p><b>Sick.</b> CityMD urgent care on 8th Ave at 42nd, a five-minute walk, open late. Duane Reade on the corner.</p>
+    </div>
+  </div>
+</section>''')
+
 # ---------- Day pages ----------
 for d in DAYS:
     rows = "".join(f'<div class="t-row"><div class="t-time">{e(t)}</div><div class="t-what">{e(w)}</div></div>' for t,w in d["plan"])
@@ -449,9 +487,8 @@ for d in DAYS:
             for ext in ("jpg","jpeg","png","webp"):
                 p = f"images/day{d['n']}/{i+1}.{ext}"
                 if os.path.exists(p):
-                    mime = mimetypes.guess_type(p)[0] or "image/jpeg"
-                    b64 = base64.b64encode(open(p,"rb").read()).decode()
-                    return f'<div class="sp-photo" style="background-image:url(data:{mime};base64,{b64})"><span>{i+1}</span></div>'
+                    b64 = img_b64(p, 1000)
+                    return f'<div class="sp-photo" style="background-image:url(data:image/jpeg;base64,{b64})"><span>{i+1}</span></div>'
             return f'<div class="sp-plate" style="background:{plates[i%len(plates)]}"><span>{i+1}</span></div>'
         blocks = "".join(f'''<div class="sp-item">{plate(i)}<div class="sp-name">{e(nm)}</div><div class="sp-sub">{e(sub)}</div><p class="sp-body">{e(body)}</p><div class="sp-try"><span>Try</span>{e(tr)}</div></div>''' for i,(nm,sub,body,tr) in enumerate(sp["items"]))
         spot = f'''
@@ -469,15 +506,17 @@ for d in DAYS:
     <div class="sign-date">{e(d["dow"])}<br>{e(d["date"])}</div>
     <h2 class="sign-theme">{e(d["theme"])}</h2>
     <div class="sign-area">{e(d["area"])}</div>
+    <div class="sign-wx">{e(WX[d["n"]][0])}</div>
     <div class="sign-food"><div class="sign-label">The food</div><div class="sign-food-name">{e(d["food"][0])}</div><div class="sign-food-why">{e(d["food"][1])}</div></div>
   </div>
   <div class="body">
     <p class="intro">{e(d["intro"])}</p>
     <div class="timeline">{rows}</div>
     <div class="swap"><span class="swap-label">The swap</span> {e(d["swap"])}</div>
+    <div class="swap rain"><span class="swap-label">If it rains</span> {e(WX[d["n"]][1])}</div>
   </div>
 </section>''')
-    if spot: pages.append(spot)
+    if spot: pages.insert(len(pages)-1, spot)
 
 # ---------- Divider ----------
 pages.append(f'''

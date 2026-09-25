@@ -63,18 +63,18 @@ h1, h2, h3, .sans { font-family: "Poppins", "Liberation Sans", Helvetica, Arial,
 .sign-food-name { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 1.05em; line-height: 1.25; margin: 0.15em 0 0.25em; }
 .sign-food-why { font-size: 0.9em; line-height: 1.4; color: #cfcbc2; }
 .body { flex: 1; padding: 0.5in 0.6in 0.45in 0.6in; display: flex; flex-direction: column; }
-.intro { font-size: 1.2em; line-height: 1.45; margin: 0 0 0.7em 0; max-width: 40em; }
+.intro { font-size: 1.1em; line-height: 1.45; margin: 0 0 0.7em 0; max-width: 40em; }
 .timeline { flex: 1; columns: 2; column-gap: 0.55in; column-fill: balance; }
-.t-row { display: grid; grid-template-columns: 4.8em 1fr; gap: 0.6em; padding: 0.5em 0; border-top: 1px solid #cfcabf; font-size: 1.02em; line-height: 1.4; break-inside: avoid; }
+.t-row { display: grid; grid-template-columns: 4.8em 1fr; gap: 0.6em; padding: 0.36em 0; border-top: 1px solid #cfcabf; font-size: 0.97em; line-height: 1.4; break-inside: avoid; }
 .t-time { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; font-size: 0.92em; padding-top: 0.1em; }
-.swap { margin-top: 0.6em; padding-top: 0.6em; border-top: 3px solid #16181d; font-size: 1.02em; }
+.swap { margin-top: 0.5em; padding-top: 0.45em; border-top: 3px solid #16181d; font-size: 0.95em; line-height: 1.35; }
 .swap-label { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; margin-right: 0.4em; }
 
 /* ---- appendix grids ---- */
 .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.45in 0.32in; font-size: 1.12em; }
 .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.14in 0.3in; font-size: 0.96em; }
 .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.14in 0.45in; font-size: 1.22em; }
-.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.06in 0.5in; font-size: 1.1em; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.04in 0.45in; font-size: 0.9em; }
 .n-item, .r-row { border-top: 3px solid #16181d; padding-top: 0.5em; }
 .n-name, .r-name, .m-name, .f-name, .b-name { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; line-height: 1.25; }
 .n-desc, .r-desc, .m-desc { font-size: 0.84em; line-height: 1.4; margin-top: 0.3em; }
@@ -87,12 +87,12 @@ h1, h2, h3, .sans { font-family: "Poppins", "Liberation Sans", Helvetica, Arial,
 .f-where { font-size: 0.86em; color: #5b5e66; margin-top: 0.12em; }
 
 /* ---- picks & bookings ---- */
-.picks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.35in; font-size: 1.1em; }
+.picks { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.3in; font-size: 0.92em; }
 .picks h3 { margin: 0 0 0.45em 0; font-size: 1em; font-weight: 600; border-bottom: 3px solid #16181d; padding-bottom: 0.3em; }
-.pick { display: flex; align-items: center; gap: 0.5em; font-size: 0.86em; padding: 0.22em 0; }
+.pick { display: flex; align-items: center; gap: 0.5em; font-size: 0.86em; padding: 0.12em 0; }
 .box { display: inline-block; width: 0.95em; height: 0.95em; border: 2px solid #16181d; border-radius: 2px; flex: 0 0 auto; background: #fff; }
 .write-lines div { border-bottom: 1px solid #16181d; height: 1.5em; }
-.bookings .b-row { display: grid; grid-template-columns: 1.3em 1fr 1fr 1.25fr; gap: 0.5em; align-items: baseline; padding: 0.42em 0; border-bottom: 1px solid #d9d4c9; font-size: 0.9em; }
+.bookings .b-row { display: grid; grid-template-columns: 1.3em 1fr 1fr 1.25fr; gap: 0.5em; align-items: baseline; padding: 0.28em 0; border-bottom: 1px solid #d9d4c9; font-size: 0.9em; }
 .b-when { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.92em; }
 .b-note { color: #5b5e66; font-size: 0.92em; }
 
@@ -118,7 +118,7 @@ h1, h2, h3, .sans { font-family: "Poppins", "Liberation Sans", Helvetica, Arial,
 .sp-sub { color: #16181d; }
 
 .sp-photo { height: 1.15in; background-size: cover; background-position: center; margin-bottom: 0.5em; position: relative; }
-.sp-photo span { position: absolute; left: 0.45em; bottom: 0.2em; font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 1.6em; color: #fff; text-shadow: 0 1px 6px rgba(0,0,0,.6); line-height: 1; }
+.sp-photo span { position: absolute; left: 0; top: 0; font-family: "Poppins", Helvetica, sans-serif; font-weight: 700; font-size: 0.95em; color: #fff; background: #16181d; line-height: 1; padding: 0.35em 0.55em; }
 
 /* ---- opener ---- */
 .opener { display: flex; background: #16181d; color: #fff; }
@@ -141,3 +141,14 @@ h1, h2, h3, .sans { font-family: "Poppins", "Liberation Sans", Helvetica, Arial,
 .sp-n3 .sp-photo { height: 1.6in; }
 .sp-n4 { font-size: 1.08em; gap: 0 0.38in; }
 .sp-n4 .sp-photo { height: 1.35in; }
+
+.sign-wx { color: #FCCC0A; font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; font-size: 0.86em; margin-top: 0.55em; }
+.swap.rain { border-top: 1px solid #cfcabf; margin-top: 0.35em; padding-top: 0.4em; font-size: 0.92em; }
+.wx-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5in; margin-top: 0.3in !important; }
+.wx-row { display: grid; grid-template-columns: 5.2em 1fr 1.2fr; gap: 0.5em; padding: 0.18em 0; border-top: 1px solid #d9d4c9; font-size: 0.7em; line-height: 1.25; }
+.wx-d { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; }
+.wx-f { font-family: "Poppins", Helvetica, sans-serif; font-weight: 500; }
+.wx-t { color: #5b5e66; }
+.wx-notes h2 { font-size: 0.95em; margin: 0 0 0.2em; }
+.wx-notes p { font-size: 0.8em; line-height: 1.38; margin: 0 0 0.5em; max-width: 34em; }
+.wx-notes b { font-family: "Poppins", Helvetica, sans-serif; font-weight: 600; }
