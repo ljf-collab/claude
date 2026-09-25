@@ -117,6 +117,119 @@ SPOTLIGHTS = {
    ]),
 }
 
+SPOTLIGHTS.update({
+ 3: dict(headline="Harlem in the morning, a book and a glass of wine in the afternoon, and lobster on an island the Bronx forgot to tell anyone about.",
+  items=[
+   ("The Historic Harlem tour","Dutch village to the Renaissance, on foot","Two hours from the Schomburg down through Strivers' Row, the Abyssinian Baptist Church and the Apollo, with a guide who knows which stoop Langston Hughes sat on. Harlem was a Dutch farm village, then a white suburb, then, after 1905, the capital of Black America. The blocks still tell it.","Strivers' Row on 138th and 139th, the finest row houses in the city. The Apollo marquee. The plaque outside the Hotel Theresa."),
+   ("Red Rooster","Marcus Samuelsson's Harlem, since 2010","Named for a speakeasy that stood a few blocks away, the Rooster brought a two-Michelin-star chef to Lenox Avenue and made the room feel like a block party anyway. Cornbread arrives in a skillet. Obama ate here in his first year.","The fried yardbird if it's a real lunch. The cornbread and a cocktail if it isn't. The Ginny's Supper Club stairs, just to look."),
+   ("The wine bar","Barawine or Vinateria, books out","Barawine on Lenox at 120th is French-run, long, and doesn't mind an afternoon that turns into evening. Vinateria on Frederick Douglass is smaller, Italian-leaning, with the better wine list. Both are the kind of room where a book is welcome and the second glass is assumed.","A bottle, not glasses. A plate of something. Two hours minimum."),
+   ("City Island","A New England fishing village at the end of the 6 train","A mile and a half long, one avenue wide, with clam shacks, boatyards and Victorian houses, and it has been that way since the 1800s. The rest of the Bronx is a short bridge away and feels like another country. Walk the avenue to Belden Point and look at the water.","The walk to the tip. The nautical museum if it's open. The sunset over the Sound on the way back."),
+   ("Sammy's Fish Box","Since 1966, and never once quiet","The lobster place at the end of City Island Avenue, with the neon, the fish tanks and the plates the size of tires. It is loud, it is family, and it is the reason to make the trip. A Sunday here is what a Sunday in the Bronx looks like.","The whole lobster. Fried clams for the table. Whatever's on the sign out front."),
+  ]),
+ 4: dict(headline="The Upper West Side is the New York of the movies: brownstones, the museum, the park from the west, and a cookie the size of a fist.",
+  items=[
+   ("Levain","The six-ounce cookie, since 1995","Two triathletes opened a basement bakery on West 74th and baked an oversized chocolate chip walnut cookie as training fuel. It became the most famous cookie in America. The original is still the basement, still the line, still warm.","The chocolate chip walnut, split. Dark chocolate peanut butter if there's room. Eat it on the stoop."),
+   ("American Museum of Natural History","Dinosaurs, the planetarium, and the new Gilder Center","Founded in 1869, it has the blue whale, the Tyrannosaurus, the Hall of Ocean Life and the Hayden Planetarium's sphere. The Gilder Center, opened in 2023, is the part almost nobody has seen yet: a cave-like building of poured concrete with a butterfly vivarium and the insectarium.","The dinosaur halls on 4. The Gilder Center's insectarium. The whale, because it's the whale."),
+   ("Jacob's Pickles","Biscuits and pickles on Amsterdam","Opened in 2011 and immediately the neighborhood's loud lunch: biscuit sandwiches, fried chicken, pickle flights, craft beer on tap. The room is wood and brick and never empty. It is comfort food with a line, and the line is fair.","The pickle sampler. Any biscuit sandwich. The biscuits and gravy if the walk was long."),
+   ("Riverside Park","Olmsted's other park, along the river","Four miles of park designed by Frederick Law Olmsted in 1875, terraced down to the Hudson. It has the 79th Street Boat Basin, the Soldiers' and Sailors' Monument, and none of Central Park's crowds. Locals walk here. Tourists don't know it's there.","The promenade at 83rd. The boat basin. The bench with the river and New Jersey going gold."),
+   ("Book Culture","The neighborhood bookstore that survived","Since 1997 on 112th Street, a block from Columbia, the shop that outlasted the chains and the internet. Two floors, real staff picks, and a table of new fiction that changes weekly. The kind of place where an hour disappears.","The staff picks table. The basement. One book that wasn't planned."),
+  ]),
+ 5: dict(headline="Museum Mile, done differently: the Frick back in its mansion, an egg cream at a 1925 counter, and the reservoir at golden hour.",
+  items=[
+   ("The Frick","Vermeer and Rembrandt, in the rooms they were bought for","Henry Clay Frick's 1914 mansion on Fifth Avenue reopened in 2025 after a five-year renovation that opened the family's upstairs rooms to the public for the first time. Three Vermeers, Rembrandt's self-portrait, Bellini's St. Francis, Holbein's Thomas More, hung as a house, not a museum.","The Garden Court with the fountain. Bellini's St. Francis in the Living Hall. The upstairs bedrooms, new since the reopening."),
+   ("Lexington Candy Shop","A 1925 luncheonette, unchanged","The last real soda fountain on the Upper East Side, run by the same family since it opened. Chrome stools, a griddle, Coca-Cola made from syrup and seltzer at the counter. The egg cream here is the reference point for every other egg cream.","The egg cream, chocolate. A grilled cheese or a tuna melt. The vintage Coke bottles along the wall."),
+   ("William Greenberg","The black-and-white cookie, since 1946","A Madison Avenue bakery that has made the same cookie for eighty years: a soft cake base, half vanilla fondant, half chocolate. Seinfeld made it famous; Greenberg's made it right. The line on Saturday mornings is Upper East Side grandmothers.","The black-and-white, obviously. A brownie for later. The rugelach."),
+   ("Cooper Hewitt","The Smithsonian's design museum, in Carnegie's house","Andrew Carnegie's 1902 mansion on 91st Street, now the only museum in the country devoted entirely to design. Typefaces, chairs, wallpaper, the history of everything made. The interactive pen lets visitors save what they liked and look it up later.","The Carnegie library. The garden. The pen; it works."),
+   ("The Reservoir","1.6 miles, flat, the skyline on every side","Built in 1862 to supply the city's water, retired in 1993, and now the best running loop in Manhattan. The soft-surface track circles a billion gallons of still water with the Upper West Side towers reflected in it. At golden hour it is the most beautiful place in the park.","The full loop from the 90th Street gate. The bridle path below it if the track's crowded. Sunset from the west side."),
+  ]),
+ 6: dict(headline="Midtown the way New Yorkers do it: a ticket in line, a book under the Library ceiling, lunch from a cart, and a show at two.",
+  items=[
+   ("TKTS","Half-price tickets, since 1973","The red steps at Duffy Square have sold discounted same-day Broadway tickets since 1973. The board goes up, the line moves, the tickets are real. It is how New Yorkers see theater without planning, and standing in it at ten in the morning is its own small ritual.","Be in line before ten. Take what's best on the board, not what was planned. The red steps after, with a coffee."),
+   ("The Rose Main Reading Room","The most beautiful free room in the city","The New York Public Library's main branch opened in 1911; the Rose Reading Room is 78 feet wide, 297 feet long, with a ceiling of painted clouds restored in 2016. Anyone can walk in and sit. The Map Room downstairs is smaller and stranger.","The reading room, an hour with a book. The Map Room. The lions, Patience and Fortitude, on the way out."),
+   ("The Halal Guys","The original cart, 53rd and 6th","Three Egyptian immigrants started selling chicken and rice to cab drivers from a cart on this corner in 1990. It became the most famous street food in New York and a global chain, but the cart is still here, on the southeast corner, with the white sauce and the line.","Chicken and gyro combo over rice. White sauce, a little red. Eat it standing, or walk it to Bryant Park."),
+   ("The matinee","Whatever the board said","If Hadestown is on the board, it's the one: Anaïs Mitchell's folk-opera retelling of Orpheus and Eurydice, eight Tonys in 2019, still the best-sounding show in the district. If not, the board decides. Two hours in the dark in the middle of a Wednesday is the point.","The best seats TKTS has. No phone. Dinner after, not before."),
+   ("Koreatown","32nd Street, three floors of barbecue","One block between Fifth and Broadway, open until 4am, with Korean barbecue stacked above Korean bakeries stacked above karaoke rooms. Jongro BBQ, upstairs, does galbi and pork belly on charcoal at the table and is the place locals argue for.","Galbi and samgyeopsal, grilled at the table. The banchan, all of it. Soju if the matinee was good."),
+  ]),
+ 7: dict(headline="The east side below 42nd: a banker's library, eighteen miles of books, a Ukrainian diner, and the basement where jazz lives.",
+  items=[
+   ("The Morgan Library","J.P. Morgan's private library, opened to the public in 1924","Charles McKim built Morgan a Renaissance palazzo on 36th Street in 1906 to hold his manuscripts. It has three Gutenberg Bibles, Mozart's handwritten scores, Dickens's manuscripts and Morgan's own study, red-walled and exactly as he left it. Renzo Piano added the glass atrium in 2006.","The East Room, three tiers of books. Morgan's study. Whatever manuscript is on display in the rotunda."),
+   ("The Strand","Eighteen miles of books, since 1927","The last survivor of Book Row, the stretch of Fourth Avenue that once held forty-eight bookstores. Three floors and a basement on Broadway at 12th, with the rare book room upstairs and the dollar carts outside. It has never been anything but a bookstore.","The dollar carts on the sidewalk. The rare book room on 3. One book that wasn't planned."),
+   ("The East Village","St. Marks, Tompkins Square, the gardens","Once the Lower East Side's northern half, then the center of every counterculture the city had: the Beats, punk at CBGB, the squatters, the Ukrainians who never left. Tompkins Square Park is the neighborhood's living room. The community gardens on the avenues are its secret.","St. Marks Place from Third to Avenue A. Tompkins Square on a weekday. The 6th and B garden."),
+   ("Veselka","Pierogi and borscht since 1954","A Ukrainian diner on Second Avenue that has fed the neighborhood around the clock for seventy years. The pierogi are made by hand in the basement. The borscht is the reference. The room is Formica and photographs and has never been renovated on purpose.","Pierogi, boiled, with onions and sour cream. The borscht. The Christmas borscht if it's on."),
+   ("The Village Vanguard","The basement, since 1935","Max Gordon opened it as a poetry club in a Greenwich Village cellar; it became the most important jazz room in the world. Coltrane, Bill Evans, Sonny Rollins and a hundred others recorded live albums here. It is still a triangle of a room with 123 seats and no talking.","The 8pm set. A seat along the wall. No phone, no talking, one drink."),
+  ]),
+ 8: dict(headline="One train, two neighborhoods, a dozen countries. The 7 is the most delicious subway line in the world.",
+  items=[
+   ("Jackson Heights","Six blocks, most of the planet","Under the elevated 7 at Roosevelt Avenue, the most diverse neighborhood on earth: Colombian, Ecuadorian, Mexican, Tibetan, Nepali, Bangladeshi, Indian, all within a ten-minute walk. 74th Street is South Asian. Roosevelt under the tracks is Latin America. Nobody sits; everybody eats.","Momos from a Tibetan counter on 74th. A dosa. The sweets shops. The Arepa Lady's cart under the tracks."),
+   ("The Arepa Lady","A Colombian legend under the el","María Piedad Cano sold arepas from a cart under the 7 train for twenty-five years, a former judge from Medellín who became the most famous street vendor in Queens. Her sons now run a storefront on 37th Avenue, but the arepa de queso is the same: griddled corn, butter, cheese.","The arepa de queso. The arepa de choclo, sweeter. A Colombian soda."),
+   ("Nan Xiang Xiao Long Bao","The soup dumpling, done properly","Flushing's soup dumpling specialist since 2006, named for the Shanghai town that invented xiao long bao. The dumplings arrive in bamboo steamers, thin-skinned, full of broth. The move: bite, sip, then eat. The line is part of it.","Pork xiao long bao, a basket each. The crab and pork if it's on. Scallion pancake for the table."),
+   ("Xi'an Famous Foods","Hand-pulled noodles from a Flushing basement","Jason Wang's father opened a stall in the Golden Shopping Mall basement in 2005, selling the food of Xi'an, the old Silk Road capital: cumin lamb, biang biang noodles, liang pi. It became a chain across the city, but Flushing is where it began and where it's best.","Spicy cumin lamb hand-ripped noodles. Liang pi cold noodles. The lamb burger."),
+   ("Flushing Meadows","The World's Fair grounds, and the Panorama","Two World's Fairs, 1939 and 1964, left the Unisphere, the towers, and the Queens Museum. Inside the museum is the Panorama of the City of New York, a scale model of every building in the five boroughs commissioned by Robert Moses in 1964 and still updated. It takes the breath.","The Unisphere up close. The Panorama; find the apartment. The walk along the fountains."),
+  ]),
+ 9: dict(headline="Ninety minutes up the Hudson by train, a museum in a box factory, and a mile of Main Street in a town the city forgot to ruin.",
+  items=[
+   ("The Hudson Line","The river out the window, the whole way","Metro-North's Hudson Line runs along the water from Spuyten Duyvil north: the Palisades, the Tappan Zee, Croton Point, Bear Mountain Bridge, Storm King, the river widening at Newburgh Bay. In October it is the best foliage view in the state, and it costs a train ticket.","Left side going north, right side coming back. The stretch past Bear Mountain. The morning light."),
+   ("Dia Beacon","Minimalism in a Nabisco box factory","Dia opened in 2003 in a 1929 printing plant where Nabisco made its cracker boxes, 300,000 square feet of natural light. Richard Serra's torqued ellipses, Dan Flavin's fluorescent halls, Louise Bourgeois's spiders, Agnes Martin's grids. It is the best museum in the region and it's an hour and a half from Grand Central.","The Serras, walk inside them. The Flavin corridor. The Agnes Martin room, alone."),
+   ("Main Street","A mile long, and all of it alive","Beacon was a hat-factory town that died in the 1970s and came back with Dia. Main Street runs a mile from the river to the mountain: galleries, vintage, a bookshop, bakeries, two breweries, and the falls of Fishkill Creek at the east end behind the old factories.","Lunch wherever the walk lands. The east end and the falls. Hudson Beach Glass, the old firehouse."),
+   ("Mount Beacon","The optional summit","The hill above town, with the ruins of the 1902 incline railway on the way up and a fire tower at the top. Steep, two hours round trip, and the view is the whole Hudson Highlands. Not a lazy afternoon; a real hike. Only if the mood says so.","The incline railway ruins. The fire tower. Or the bench at the bottom with a coffee."),
+   ("Storm King","The swap, if sculpture wins","Five hundred acres of rolling meadow across the river with monumental sculpture set into it: Calder, Serra, Maya Lin's Wavefield, Andy Goldsworthy's stone wall snaking through the trees. Open since 1960. Needs a car or the bus from Port Authority. A day of its own, not an add-on.","Goldsworthy's wall. Maya Lin's field. The Calders on the hill."),
+  ]),
+ 10: dict(headline="The neighborhood every New York family came through. Bagels, pastrami, a knish and dim sum, in walking order, and all of it over a hundred years old.",
+  items=[
+   ("Russ & Daughters","Appetizing since 1914","Joel Russ sold herring from a pushcart, opened a shop on Houston Street in 1914 and, in 1935, made his three daughters partners, the first American business to put 'and Daughters' on the sign. Four generations on, it is the definitive smoked fish counter in the city. Take a number.","Bagel, Gaspe nova, scallion cream cheese. A piece of sable. The chocolate babka for later."),
+   ("The Tenement Museum","Real apartments, real families","97 Orchard Street housed 7,000 immigrants between 1863 and 1935; the museum found the building sealed in 1988 and restored the apartments as they were left. Guided tours only, one family per tour, and the story of the neighborhood told through their rooms. One of the best museums in New York.","Whichever tour has a slot. Orchard Street after, the same blocks."),
+   ("Katz's Delicatessen","Since 1888, and the pastrami is why","The last of the great Lower East Side delis, in the same spot since 1888. Take the ticket at the door, order at the counter, watch the cutter hand over a slice while he carves. The pastrami is smoked for weeks and sliced by hand. The room is where Harry met Sally.","Pastrami on rye, mustard. A half-sour from the plate. Dr. Brown's cel-ray if the nerve is there."),
+   ("Yonah Schimmel's","The knish, since 1910","A Romanian rabbi's pushcart became a Houston Street storefront in 1910, and it has made potato knishes in the same basement oven ever since. The room has not changed. The knish is a pound of mashed potato in a thin crust and it is the neighborhood in one bite.","Potato knish, plain. Kasha if adventurous. Eat it later; it travels."),
+   ("Nom Wah Tea Parlor","Dim sum on Doyers, since 1920","The oldest dim sum house in the city, on the crooked block of Doyers Street once called the Bloody Angle. Red vinyl booths, tiled floor, the original egg roll that isn't like any other. Bought by the owner's nephew in 2010 and kept exactly as it was.","Har gow, siu mai, the original egg roll. Turnip cake. The house tea."),
+  ]),
+ 11: dict(headline="Take the ferry. Brooklyn's waterfront was sugar and shipping; now it's coffee, oysters and the skyline you came for.",
+  items=[
+   ("The East River ferry","Twenty minutes, three dollars, the whole skyline","NYC Ferry launched in 2017 and made the water a commute again. From West 39th around the Battery and up the East River to North Williamsburg, with Midtown, the bridges and Lower Manhattan going past the window. It is the best way into Brooklyn and it costs less than a coffee.","The top deck, outside. The stretch under the bridges. A seat on the Manhattan side."),
+   ("Devoción","Colombian coffee under a skylight","A Bogotá-born roaster whose Grand Street cafe is a former warehouse filled with plants and light. The beans are flown in fresh from Colombia weekly, which nobody else does. It is the best cup in Williamsburg and the room to drink it in.","A pour-over, single origin. The pastry case. The bench under the skylight."),
+   ("Domino Park","The sugar refinery, reborn","The Domino Sugar Refinery closed in 2004 after 150 years; the park opened on its waterfront in 2018, with the old gantry cranes, syrup tanks and the brick refinery kept as sculpture. A quarter mile of river with the Williamsburg Bridge overhead and Manhattan across the water.","The elevated walkway. The old cranes. The view back at the Empire State from the water."),
+   ("The Wythe rooftop","Bar Blondeau, the skyline as a drink","The Wythe Hotel, a converted 1901 cooperage, opened in 2012 and set the tone for the neighborhood. Its sixth-floor bar, Bar Blondeau, has floor-to-ceiling windows and the definitive view of Manhattan from Brooklyn. Weather permitting, the terrace.","A drink at golden hour. The terrace if it's open. Oysters here or save them."),
+   ("Maison Premiere","New Orleans in Brooklyn, oysters and absinthe","Opened in 2011 on Bedford Avenue as an oyster and absinthe bar modeled on the French Quarter. A horseshoe marble bar, thirty kinds of oysters, an absinthe fountain and a garden out back. James Beard nominated, and the best seafood tower in the borough.","The happy hour oysters, then the tower. An absinthe drip, once. The garden if the night is warm."),
+  ]),
+ 12: dict(headline="Thirteen miles, top to bottom: a forest, a monastery, mofongo, the whole spine of Broadway, and the Statue at the end of it.",
+  items=[
+   ("Inwood Hill Park","The last forest on the island","The northern tip of Manhattan, and the only place on it that was never cleared: old-growth forest, caves the Lenape used, salt marsh where the Harlem and Hudson rivers meet. A boulder marks where the island was supposedly bought in 1626. The city is invisible from here.","The caves. The marsh at the tip. Shorakkopoch Rock and the plaque."),
+   ("The Cloisters","Medieval Europe on a hill over the Hudson","The Met's medieval branch, built in 1938 from pieces of five French monasteries, shipped stone by stone and reassembled in Fort Tryon Park with Rockefeller's money. The Unicorn Tapestries are here. So are the gardens, planted from medieval texts. The Palisades across the river were bought to keep the view.","The Unicorn Tapestries. The Cuxa Cloister garden. The view from the ramparts."),
+   ("Malecon","Dominican Washington Heights, on a plate","Washington Heights is the largest Dominican community outside the Dominican Republic, and Malecon on Broadway at 175th is its restaurant: rotisserie chicken turning in the window since 1990, mofongo, oxtail, rice and beans in portions built for people who have been walking.","Mofongo with the garlic. The rotisserie chicken. A morir soñando."),
+   ("Broadway, the long way","From the Heights to the Battery","Broadway is the oldest road on the island, the Lenape trail the Dutch paved, and it runs the full length: Washington Heights, Harlem, the Upper West Side, Columbus Circle, Times Square, the Flatiron, SoHo, City Hall, the Battery. Every neighborhood changes underfoot.","Columbus Circle, halfway, sit. Cut west to the Hudson Greenway through Midtown. Back to Broadway at Union Square."),
+   ("The Battery","The southern tip, and the Statue","The park at the bottom of the island, where the Dutch built their fort in 1626 and where the ferries to Liberty and Ellis Island still leave. Castle Clinton, the SeaGlass Carousel, and the promenade with the Statue of Liberty out in the harbor. After thirteen miles, the water.","The promenade at the tip. The Statue, from a bench. Frenchette in Tribeca after, then a car."),
+  ]),
+ 13: dict(headline="A pastry with a line at eight in the morning, the prettiest streets in Manhattan, a four-dollar slice, and a wartime spy caper at two.",
+  items=[
+   ("Dominique Ansel","The Cronut, since 2013","A French pastry chef in a small SoHo bakery laminated croissant dough, fried it like a doughnut, filled it with cream and named it. Within a week there were lines at 6am and a black market. Thirteen years later the flavor changes monthly and the line is shorter, but the pre-order is still smart.","The Cronut, this month's flavor. The DKA, the pastry insiders order. A frozen s'more if it's warm."),
+   ("SoHo's cast iron","The biggest cast-iron district in the world","Twenty-six blocks of 1870s factories with cast-iron facades, bolted together from catalogue parts and painted to look like stone. Abandoned by industry, taken by artists in the 1960s, and now the most photographed streetscape downtown. Before ten, it's empty.","Greene Street from Canal to Houston. The Haughwout Building on Broome. Mercer Street's cobbles."),
+   ("The West Village","Where the grid breaks","Below 14th, the streets stop being numbers and start being names, and they bend. Grove Court's hidden row of 1850s houses, Commerce Street's curve, the Cherry Lane Theatre, Bank Street's brownstones. It is the neighborhood every film set in New York tries to fake.","Grove Court through the gate. Commerce Street's bend. Cherry Lane, the oldest off-Broadway theater."),
+   ("Joe's Pizza","The plain slice, since 1975","Joe Pozzuoli, from Naples, opened on the corner of Bleecker and Carmine and never changed the recipe. Thin, foldable, a little charred, four dollars and eaten standing. It is the slice every other slice in the city is measured against. Spider-Man worked here in the movies.","The plain cheese slice, folded. A second one. Nothing on it."),
+   ("Mamoun's","Falafel on MacDougal, since 1971","The oldest falafel shop in the city and the first in Greenwich Village, a counter on MacDougal Street that has fed NYU students, cabbies and Bob Dylan for fifty years. Three dollars, a pita, the hot sauce that made it famous. Eaten on the sidewalk, always.","The falafel sandwich. The hot sauce, carefully. A baklava for the walk to the train."),
+   ("Operation Mincemeat","A true wartime caper, sung","In 1943 British intelligence floated a corpse with fake invasion plans off the coast of Spain and fooled Hitler. Four comedians turned it into a musical in a room above a pub in London; it won the Olivier for Best Musical and moved to Broadway in 2025. Five actors play forty parts. It is funnier than it has any right to be.","Seats close; it's a small cast in a small house. The eleven o'clock number. Stay for the bows."),
+  ]),
+ 14: dict(headline="The hardest morning of the trip, then the walk that makes it right: the bridge, the waterfront, coal-oven pizza and the cheesecake.",
+  items=[
+   ("The 9/11 Memorial and Museum","The pools, then the museum below","Michael Arad's two reflecting pools sit in the footprints of the towers, with the names cut into bronze around the edges and water falling into the void. The museum below, opened in 2014, holds the slurry wall, the last column, the Survivors' Stairs and the stories. It takes two hours and it earns them.","The pools first, outside. The Memorial Hall. The Survivors' Stairs. Then the bridge."),
+   ("The Brooklyn Bridge","1883, and still the walk","Fourteen years to build, twenty-seven workers dead, designed by John Roebling and finished by his son and his daughter-in-law Emily after both men were injured. The first steel-wire suspension bridge in the world. The walkway above the traffic, with the Gothic towers and the harbor on both sides, is the best free half-hour in the city.","Walk it from the Manhattan side. Stop at the first tower and look back. Morning light."),
+   ("DUMBO","Down Under the Manhattan Bridge Overpass","Warehouses, cobbles and the shot of the Manhattan Bridge framed between the buildings on Washington Street that everyone takes and should. Brooklyn Bridge Park runs along the waterfront below with Jane's Carousel in its glass box and the skyline across the river.","Washington Street at Water Street, the photo. Empire Stores. The waterfront to Pier 1."),
+   ("Juliana's","Patsy Grimaldi's own place","Patsy Grimaldi learned from Patsy Lancieri, sold his name in 1998, retired, hated what happened to it, and opened Juliana's next door in 2012 with the coal oven and his mother's name. Thin, blistered, coal-fired, the crust that Brooklyn pizza is supposed to mean.","The classic Margherita. The No. 1, with the sausage. The line moves; join it."),
+   ("The Promenade","Brooklyn Heights, and the view","The first historic district in New York, brownstones and Federal houses from the 1820s on, with the Promenade cantilevered over the expressway since 1950. From it: the harbor, the bridge, Lower Manhattan, the Statue. Willow, Pierrepont and Montague Streets behind it are the city's best walk of front doors.","The Promenade end to end. Willow Street. Montague for a coffee."),
+   ("Junior's","The cheesecake, since 1950","Harry Rosen's diner at Flatbush and DeKalb opened in 1950 and its cheesecake, dense, plain, on a sponge base, became the one the city means when it says the word. The room is orange booths, a long counter and a display case of the cakes. Sit down; don't take it to go.","Plain cheesecake, a slice. The strawberry if the plain seems too pure. A coffee, in the booth."),
+  ]),
+ 15: dict(headline="Emmy eve. The market at nine, the kitchen by noon, and the one dinner of the trip that gets made, not booked.",
+  items=[
+   ("Union Square Greenmarket","The city's market, since 1976","It started with twelve farmers in a parking lot and became the largest and best-known farmers market in the country: 140 regional producers on Mondays, Wednesdays, Fridays and Saturdays. In October it is apples, cider, squash, the last tomatoes, mushrooms, upstate cheese and bread. Chefs shop here at dawn.","The apple stands; ask for the odd varieties. The mushroom man. Bread from the bakery stalls. Cider, warm if it's cold."),
+   ("Eataly","The Italian market on 23rd, since 2010","Fifty thousand square feet of Italian groceries under the Flatiron: fresh pasta made in the window, a cheese counter, the olive oil wall, a butcher, a fishmonger and a wine shop. The second stop if the market didn't cover it.","Fresh pasta from the counter. A good bottle. Parmigiano, a wedge, for the table."),
+   ("The kitchen","Slowly, all afternoon","Whatever the market gave: a braise, a roast chicken, a squash risotto, an apple tart with Hudson Valley fruit. Music on, wine open, no clock. The one meal of the trip that gets made at home, together, the night before the biggest day.","The long recipe, not the fast one. Dessert from the market apples. Bed by half nine."),
+  ]),
+ 16: dict(headline="The last full day, timed to the minute, and the night the whole trip has been pointed at.",
+  items=[
+   ("Drybar","The blowout, a block away","The chain that made the blowout a category, with a shop a block from the apartment. Forty-five minutes, a menu of styles with cocktail names, and hair that lasts until the car home. Booked early so the afternoon has slack.","The 10 or 10:30 slot. Whichever style survives a red carpet. Photos before the car."),
+   ("The New York Emmys","The 69th annual, at the Marquis","The National Academy's New York chapter honors the year's best local television, news and documentary work, and the ceremony is the industry's night out: black tie, red carpet, the ballroom. This year it is the reason the trip ends when it does.","The red carpet, slowly. The ballroom before it fills. The walk home after, ten minutes, in the air."),
+   ("The Marriott Marquis","Times Square, 45th floor of it","The 1985 hotel in the middle of Times Square, with the atrium, the glass elevators and the ballroom that hosts half the awards nights in the city. Ten minutes on foot from the apartment, which is the whole point of living where the apartment is.","The atrium elevators, once. The view from the ballroom floor. Times Square after midnight, quieter than expected."),
+  ]),
+})
+
 NEIGHBORHOODS = [
  ("West Village","The prettiest streets in the city: Grove Court, Commerce, Bank. Coffee, a bookstore, a slice at Joe's, and get lost on purpose.","1 to Christopher St"),
  ("Lower East Side","Russ & Daughters, Katz's, the Tenement Museum, then the galleries on Orchard. The whole immigrant story in six blocks.","F to 2nd Ave"),
@@ -275,6 +388,46 @@ pages.append(f'''
   </div>
 </section>''')
 
+
+# ---------- Opener: the trip in one look ----------
+OPENER_TILES = [
+ ("Harlem","Sunday, a tour and a wine bar"),
+ ("The Frick","Tuesday, Vermeer in the mansion"),
+ ("The Hudson","Saturday, foliage by train to Beacon"),
+ ("Katz's","Sunday, pastrami on the Lower East Side"),
+ ("The Vanguard","Thursday, the eight o'clock set"),
+ ("Flushing","Friday, soup dumplings at the end of the 7"),
+ ("The Brooklyn Bridge","Thursday, after the museum"),
+ ("The Greenmarket","Friday, then cooking at home"),
+ ("The Emmys","Saturday, the last full day"),
+]
+STATS = [("17","days"),("12","neighborhoods"),("25","foods"),("20","museums"),("2","matinees"),("1","sold-out dance premiere"),("1","jazz set at the Vanguard"),("13","miles, tip to tip"),("1","Emmy night")]
+
+def tile(i, name, cap):
+    import os, base64, mimetypes
+    src = None
+    for ext in ("jpg","jpeg","png","webp"):
+        p = f"images/opener/{i+1}.{ext}"
+        if os.path.exists(p):
+            mime = mimetypes.guess_type(p)[0] or "image/jpeg"
+            src = f"data:{mime};base64,{base64.b64encode(open(p,'rb').read()).decode()}"
+            break
+    plates = [L["red"],L["blue"],L["green"],L["orange"],L["purple"],L["yellow"],L["teal"],L["grey"],L["brown"]]
+    bg = f"background-image:url({src})" if src else f"background:{plates[i%len(plates)]}"
+    return f'<div class="op-tile" style="{bg}"><div class="op-cap"><b>{e(name)}</b>{e(cap)}</div></div>'
+
+tiles = "".join(tile(i,n,c) for i,(n,c) in enumerate(OPENER_TILES))
+stats = "".join(f'<div class="op-stat"><span class="op-num">{e(n)}</span><span class="op-lab">{e(l)}</span></div>' for n,l in STATS)
+pages.append(f'''
+<section class="page opener">
+  <div class="op-left">
+    <div class="op-kicker">Sarah in New York, Part Seven</div>
+    <h2 class="op-title">Seventeen days,<br>one look</h2>
+    <div class="op-stats">{stats}</div>
+  </div>
+  <div class="op-grid">{tiles}</div>
+</section>''')
+
 # ---------- At a glance ----------
 cells = ""
 for d in DAYS:
@@ -305,7 +458,7 @@ for d in DAYS:
 <section class="page spot">
   <div class="sign-strip">{bullet(d["line"],d["color"])}<span>Day {d["n"]}, up close</span><span class="strip-sub">{e(d["dow"])} {e(d["date"])}</span></div>
   <div class="sp-head">{e(sp["headline"])}</div>
-  <div class="sp-grid">{blocks}</div>
+  <div class="sp-grid sp-n{len(sp["items"])}" style="grid-template-columns: repeat({len(sp["items"])}, 1fr)">{blocks}</div>
 </section>'''
     else:
         spot = ""
